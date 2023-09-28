@@ -27,6 +27,11 @@ h1,h2,h3,h4,h5,h6{
 }
 ol{
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
 }
 a{
     text-decoration: none;
