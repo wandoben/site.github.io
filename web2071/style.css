@@ -1,0 +1,33 @@
+h2
+{
+    color: aqua;   
+
+}
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    ;
+}
+header{
+    background-color:chocolate;
+    padding: 10px;
+}
+footer{
+    background-color: blueviolet;
+    margin: 0;
+    padding: 10px
+}
+main{
+    background-color: darkgreen;
+    margin: 0;
+    padding: 10px;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0%;
+}
+ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
