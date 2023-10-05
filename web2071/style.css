@@ -36,3 +36,8 @@ ol{
 a{
     text-decoration: none;
 }
+.wrapper
+{
+  weight: 80%;
+  margin: 0 auto;  
+}
