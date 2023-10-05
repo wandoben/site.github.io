@@ -43,6 +43,6 @@ a{
 .flex-between-center
 {
     display: flex;
-    justify-content: ;
-    align-items: center;        
+    flex-direction: row;
+    justify-content: space-between;       
 }
