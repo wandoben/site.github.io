@@ -1,7 +1,6 @@
 h2
 {
     color: aqua;   
-
 }
 body{
     background-color: antiquewhite;
@@ -38,6 +37,6 @@ a{
 }
 .wrapper
 {
-  weight: 80%;
+  width: 50%;
   margin: 0 auto;  
 }
