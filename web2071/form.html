@@ -82,7 +82,27 @@
             <input type="submit" value="отправить вопрос">
             <input type="reset" value="очистить">
         </form>
-        
+        <button onclick="exampletest1()">отправить данные
+        </button>
+        <script>
+            function exampletest1()
+            {
+            let a = document.forms[0].example.value;
+            let b = document.getElementById("example").value;
+            console.log("всё работает"+ a + ", b = +" + b)
+            let com_tion = document.forms[0].com_tion;
+            for(i=0; i<com_tion.length;i++)
+            
+            {
+                if(com_tion[i].checked)
+                {
+                    console.log(com_tion[i].value);
+
+                }
+            }
+            }
+        </script>
+
         
 
     </main>
